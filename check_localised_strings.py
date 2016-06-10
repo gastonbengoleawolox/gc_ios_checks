@@ -56,7 +56,7 @@ def get_defined_keys(gcpath):
 
 def parse_arguments():
 	parser = argparse.ArgumentParser(description="Check that the localised strings are properly set.")
-	parser.add_argument('--gcpath', default="../green-commuter-ios",  help='sum the integers (default: find the max)')
+	parser.add_argument('--gcpath', default="../green-commuter-ios",  help='path to green-commuter-ios project folder.')
 	return parser.parse_args()
 
 
